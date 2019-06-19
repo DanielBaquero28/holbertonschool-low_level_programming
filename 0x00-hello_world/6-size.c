@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main Function - Prints size of variables
+ * main - Prints size of variables
  *
  * Return: 0
 **/
