@@ -4,7 +4,7 @@
  * Main - It is the Principal Function
  *
  * Return: Always 0 (Success)
- */
+**/
  
 int main(void)
 {
