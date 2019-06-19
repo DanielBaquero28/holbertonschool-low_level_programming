@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Función principal
+ * main - Principal function 
  *
  * Return: Always 0 (Success)
 **/
