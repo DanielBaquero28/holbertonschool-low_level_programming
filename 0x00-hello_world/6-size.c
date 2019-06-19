@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* Main Function - Prints size of variables
-*
-* Return: 0
+ * Main Function - Prints size of variables
+ *
+ * Return: 0
 **/
 
 int main(void)
