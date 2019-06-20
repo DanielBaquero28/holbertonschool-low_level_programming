@@ -12,7 +12,7 @@ int i;
 
 i = '0';
 
-while (i <= '9')
+whil (i <= '9')
 {
 putchar(i);
 
