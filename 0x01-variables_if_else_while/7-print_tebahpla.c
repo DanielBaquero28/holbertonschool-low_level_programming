@@ -10,7 +10,7 @@ int main(void)
 {
 int i;
 char alphabet[26] = "zyxwvutsrqponmlkjihgfedcba";
-char letterLoo;
+char letterLook;
 
 while (i < 26)
 {
