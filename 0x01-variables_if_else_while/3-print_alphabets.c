@@ -12,7 +12,9 @@ int i;
 char alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWYZ";
 char letterLook;
 
-while (i < 26)
+i = 0;
+
+while (i < 52)
 {
 letterLook = alphabet[i];
 putchar(letterLook);
