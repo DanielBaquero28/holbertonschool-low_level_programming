@@ -10,17 +10,21 @@ int main(void)
 {
 
 int i;
-char alphabet[26] = "abcdfghijklmnoprstuvwxyz";
+char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 char letterLook;
 
 while (i < 26)
 {
 letterLook = alphabet[i];
+if (i == 4 || i == 16)
+{
+i++;
+}
+else
+{
 putchar(letterLook);
 i++;
 }
-putchar ('\n');
-
+}
 return (0);
-
 }
