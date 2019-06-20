@@ -9,7 +9,7 @@
 int main(void)
 {
 
-int i;
+int i= 0;
 char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 char letterLook;
 
@@ -26,5 +26,7 @@ putchar(letterLook);
 i++;
 }
 }
+putchar('\n');
+
 return (0);
 }
