@@ -9,7 +9,7 @@
 int main(void)
 {
 
-int i= 0;
+int i = 0;
 char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 char letterLook;
 
