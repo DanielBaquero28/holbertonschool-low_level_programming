@@ -11,7 +11,7 @@ int main(void)
 int i = 0;
 char singled [10] = "0123456789";
 char numberLook;
-while (i < 9)
+while (i < 10)
 {
 numberLook = singled[i];
 putchar(numberLook);
