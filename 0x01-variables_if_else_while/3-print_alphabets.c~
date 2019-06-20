@@ -1,0 +1,32 @@
+# include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: A text
+**/
+
+int main(void)
+{
+int i;
+char alphabetma[26] = "abcdefghijklmnopqrstuvwxyz";
+char alphabetmi[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+char letterLook;
+
+while (i < 26)
+{
+letterLook = alphabetma[i];
+putchar(letterLook);
+i++;
+}
+while (i < 26)
+{
+letterLook = alphabetmi[i];
+putchar(letterLook);
+i++;
+}
+
+putchar ('\n');
+
+return (0);
+}
