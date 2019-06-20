@@ -10,7 +10,7 @@ int main(void)
 {
 int i;
 char alphabet[16] = "0123456789abcdef";
-char letterLook;
+char letterLoo;
 
 while (i < 16)
 {
