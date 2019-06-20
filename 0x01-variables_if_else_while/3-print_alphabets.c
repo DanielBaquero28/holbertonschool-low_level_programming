@@ -1,26 +1,23 @@
-# include <stdio.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: A text
+ * main-Prints the alphabet 10 times!
+ * Return: 0
 **/
 
 int main(void)
 {
 int i;
-char alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWYZ";
-char letterLook;
+char alpha[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char letter;
 
 i = 0;
-
 while (i < 52)
 {
-letterLook = alphabet[i];
-putchar(letterLook);
+letter = alpha[i];
+putchar(letter);
 i++;
 }
-putchar ('\n');
-
+putchar('\n');
 return (0);
 }
