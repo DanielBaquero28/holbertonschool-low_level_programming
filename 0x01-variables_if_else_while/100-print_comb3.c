@@ -8,24 +8,27 @@
 
 int main(void)
 {
-int a;
-int a2;
+int n;
+int i;
 
-for (a = '0'; a <= '9'; a++)
+for (n = '0'; n <= '9'; n++)
 {
-for (a2 = '0'; a <= '9'; a2++)
+for (i = '0'; i <= '9'; i++)
 {
-if (a2 != a && a2 > a)
+int a = n + n;
+int x = n + i;
+if (x > a)
 {
-putchar(a);
-putchar(a2);
-}
-if (a != '8' || a2 != '9')
+putchar(n);
+putchar(i);
+if (!(n == '8' && i == '9'))
 {
 putchar(',');
 putchar(' ');
 }
+}
+}
+}
+putchar('\n');
 return (0);
-}
-}
 }
