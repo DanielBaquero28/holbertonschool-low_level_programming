@@ -15,7 +15,7 @@ for (a = '0'; a <= '9'; a++)
 {
 for (a2 = '0'; a <= '9'; a2++)
 {
-if (a != a2 && a2 > a)
+if (a2 != a && a2 > a)
 {
 putchar(a);
 putchar(a2);
@@ -25,7 +25,7 @@ if (a != '8' || a2 != '9')
 putchar(',');
 putchar(' ');
 }
-}
-}
 return (0);
+}
+}
 }
