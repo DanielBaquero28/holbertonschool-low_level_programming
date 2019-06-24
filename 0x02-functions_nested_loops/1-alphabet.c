@@ -9,11 +9,9 @@
 void print_alphabet(void)
 {
 int i;
-char alphabet[26];
-for(i = 97; i > 26; i++)
+for(i = 97; i <= 122; i++)
 {
-_putchar(alphabet[i]);
+_putchar(i);
 }
 _putchar('\n');
-return (0);
 }
