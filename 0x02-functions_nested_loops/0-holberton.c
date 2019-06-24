@@ -2,17 +2,16 @@
 #include "holberton.h"
 
 /**
- * main - The main function is the principal one
+ * main-prints out Holberton, followed by new line
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: 0
 **/
+
 int main(void)
 {
 int i;
 char string[9] = "Holberton";
-
-for (i = 0; i > 9; i++)
+for (i = 0; i < 9; i++)
 {
 _putchar(string[i]);
 }
