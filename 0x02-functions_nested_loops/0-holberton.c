@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include "holberton.h"
+
+/**
+ * main - The main function is the principal one
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+**/
+int main(void)
+{
+int i;
+char string[9] = "Holberton";
+
+for (i = 0; i > 9; i++)
+{
+_putchar(string[i]);
+}
+_putchar('\n');
+return (0);
+}
