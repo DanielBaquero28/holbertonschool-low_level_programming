@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * _islower - Check the code for Holberton School students.
+ * _isalpha - Check the code for Holberton School students.
  * @c: The character to print
  *
  * Return: Always 0.
