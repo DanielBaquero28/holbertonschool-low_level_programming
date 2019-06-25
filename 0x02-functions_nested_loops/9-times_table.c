@@ -14,12 +14,12 @@ int fd, sd, mult;
 int columns;
 int rows;
 
-for(rows = 0; rows < 10; rows++)
+for (rows = 0; rows < 10; rows++)
 {
-for(columns = 0; columns < 10; columns++)
+for (columns = 0; columns < 10; columns++)
 {
 mult = rows * columns;
-if(mult >= 10)
+if (mult >= 10)
 {
 fd = (mult / 10);
 sd = (mult % 10);
@@ -29,18 +29,18 @@ _putchar(sd + '0');
 }
 else
 {
-if(columns != 0)
+if (columns != 0)
 {
 _putchar(' ');
 _putchar(' ');
 }
 _putchar(mult + '0');
 }
-if(columns != 9)
+if (columns != 9)
 {
 _putchar(',');
 }
-if(columns == 9)
+if (columns == 9)
 {
 _putchar('\n');
 }
