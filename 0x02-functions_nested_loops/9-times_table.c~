@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include "holberton.h"
+#include <stdlib.h>
+
+/**
+ * times_table - Entry point
+ *
+ * Return: No return
+**/
+
+void times_table(void)
+{
+int fd, sd, mult;
+int columns;
+int rows;
+
+for(rows = 0; rows < 10; rows++)
+{
+for(columns = 0; columns < 10; columns++)
+{
+mult = rows * columns;
+if(mult >= 10)
+{
+fd = (mult / 10);
+sd = (mult % 10);
+_putchar(fd + '0');
+_putchar(sd + '0');
+_putchar(' ');
+}
+else
+{
+if(columns != 0)
+{
+_putchar(' ');
+_putchar(' ');
+}
+_putchar(mult + '0');
+}
+if(columns != 9)
+{
+_putchar(',');
+}
+if(columns == 9)
+{
+_putchar('\n');
+}
+}
+}
+columns = 0;
+}
