@@ -18,6 +18,6 @@ if (r < 0)
 r = r * (-1);
 }
 number = (r % 10);
- _putchar(number + 48);
+_putchar(number + 48);
 return (number);
 }
