@@ -17,7 +17,7 @@ if (r < 0)
 {
 r = r * -1;
 }
-number = (r % 10);
+number = r % 10;
 _putchar(number + '0');
 return (number);
 }
