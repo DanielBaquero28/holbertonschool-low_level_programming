@@ -7,17 +7,16 @@
  *
  * Return: The last digit of a number.
 **/
-
 int print_last_digit(int r)
 {
 
-int number;
+int digit;
 
 if (r < 0)
 {
 r = r * -1;
 }
-number = r % 10;
-_putchar(number + '0');
-return (number);
+digit = r % 10;
+_putchar(digit + '0');
+return (digit);
 }
