@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - while (i < 10) causes an infinite loop
+ * main - i = 0 causes an infinite loop
  * Return: 0
 **/
 
