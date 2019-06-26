@@ -6,15 +6,15 @@
 int main(void)
 {
 int i;
-int sumd = 0;
+int sumint = 0;
 
 for (i = 0; i <= 1024; i++)
 {
 if (i % 3 == 0)
-sumd += i;
+sumint += i;
 else if (i % 5 == 0)
-sumd += i;
+sumint += i;
 }
-printf("%d\n", sumd);
+printf("%d\n", sumint);
 return (0);
 }
