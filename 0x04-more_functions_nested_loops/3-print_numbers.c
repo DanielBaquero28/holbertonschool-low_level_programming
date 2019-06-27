@@ -8,7 +8,7 @@
  * Return: Nothing to return.
 **/
 
- void print_numbers(void)
+void print_numbers(void)
 {
 char i;
 for (i = 48; i < 57; i++)
