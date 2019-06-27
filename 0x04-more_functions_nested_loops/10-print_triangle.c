@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - Check the code for Holberton School students.
+ * print_triangle - Check the code for Holberton School students.
  * @size: The size triangle
  *
  * Return: Nothing
