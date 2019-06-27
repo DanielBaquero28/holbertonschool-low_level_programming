@@ -3,7 +3,7 @@
 #include "holberton.h"
 
 /**
- * _isalpha - Check the code for Holberton School students.
+ * mul - Check the code for Holberton School students.
  * @a: The character to print
  * @b: The character
  *
