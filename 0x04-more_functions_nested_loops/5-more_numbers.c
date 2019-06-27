@@ -1,25 +1,23 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "holberton.h"
 
 /**
- * more_numbers - Check the code for Holberton School students.
+ * more_numbers - print numbrs 0 to 14 0 times
  *
- * Return: Nothing to return.
-**/
+ * Return: nothing
+ */
 
 void more_numbers(void)
 {
-int i;
-int rows;
-for (rows = 0; rows <= 9; rows++)
+int i, rows;
+
+for (i = 0; i < 10; i++)
 {
-for (i = 0; i < 15; i++)
+for (rows = 0; rows < 15; rows++)
 {
-if (i >= 9)
-_putchar((i / 10) + 48);
-_putchar((i % 10) + 48);
+if (rows > 9)
+_putchar((rows / 10) + '0');
+_putchar((rows % 10) + '0');
 }
-_putchar(10);
+_putchar('\n');
 }
 }
