@@ -3,7 +3,7 @@
 #include "holberton.h"
 
 /**
- * _isalpha - Check the code for Holberton School students.
+ * _isupper - Check the code for Holberton School students.
  * @c: The character to print
  *
  * Return: Always 0.
