@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "holberton.h"
 /**
  * main - Principal Function
  *
@@ -21,5 +20,6 @@ printf("Buzz ");
 else
 printf("%d ", i);
 }
+printf("\n");
 return (0);
 }
