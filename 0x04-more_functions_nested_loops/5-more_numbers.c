@@ -16,7 +16,7 @@ for (rows = 1; rows <= 10; rows++)
 {
 for (i = 0; i <= 14; i++)
 {
-if(i >= 9)
+if (i >= 9)
 _putchar((i / 10) + 48);
 _putchar((i % 10) + 48);
 }
