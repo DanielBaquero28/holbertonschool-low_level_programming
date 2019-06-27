@@ -15,6 +15,6 @@ if (c <= 57)
 {
 return (1);
 }
-else 
+else
 return (0);
 }
