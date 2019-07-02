@@ -9,5 +9,13 @@
 
 void print_rev(char *s)
 {
-printf("%c\n", strrev(s));
+int i;
+int word;
+
+for (i = 62; s[i] != 0; i--)
+{
+word = s[i];
+_putchar(word);
+}
+_putchar(10);
 }
