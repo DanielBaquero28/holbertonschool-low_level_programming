@@ -16,7 +16,7 @@ for (i = 0; str[i] != 0; i++)
 {
 }
 j = (i + 1) / 2;
- while (str[j] != 0)
+while (str[j] != 0)
 {
 word = str[j];
 _putchar(word);
