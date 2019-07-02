@@ -1,28 +1,26 @@
 #include "holberton.h"
 
 /**
- * print_rev - Will print a string in reverse
- * @s: The pointer that will be printed in reverse
+ * puts_half - Prints the half of a string
+ * @str: String to use
  *
  * Return: Nothing
-**/
+ */
+
 void puts_half(char *str)
 {
-int str_size = strlen(str);
-int i; 
-int part_size;
-int word;
-for (i = 0; str[i] < 10; i++)
+int i, j;
+char word;
+
+for (i = 0; str[i] != 0; i++)
 {
-part_size = str_size / 2;
-for (i = 0; i < str_size; i++) 
-{ 
-if (i % part_size == 0)
+}
+j = (i + 1) / 2;
+while(str[j] != 0)
 {
-word = str[i];
-_putchar(word);    
+word = str[j];
+_putchar(word);
+j++;
 }
 _putchar(10);
-}
-}
 }
