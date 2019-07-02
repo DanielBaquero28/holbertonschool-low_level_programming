@@ -2,7 +2,7 @@
 
 /**
  * puts2 - Prints one char out of 2 of a string
- * @str: The pointer that will be printed in reverse
+ * @str: The pointer where the even numbers are printed from
  *
  * Return: Nothing
 **/
