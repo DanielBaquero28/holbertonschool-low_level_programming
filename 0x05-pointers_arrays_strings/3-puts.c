@@ -2,14 +2,22 @@
 #include <stdio.h>
 
 /**
- * _puts - Updates a pointer to have the value of 98
- * @str: The pointer that swaps it's value with b
+ * _puts - Prints a string.
+ * @str: The pointer that contains the string.
  * 
  * Return: Nothing
 **/
 
 void _puts(char *str)
 {
-puts(str);
+
+int i;
+int word;
+
+for (i = 0; str[i] != 0; i++)
+{
+word = str[i];
+_putchar(word);
+}
 _putchar('\n');
 }
