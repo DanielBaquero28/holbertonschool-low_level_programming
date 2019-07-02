@@ -4,7 +4,7 @@
 /**
  * _puts - Prints a string.
  * @str: The pointer that contains the string.
- * 
+ *
  * Return: Nothing
 **/
 
