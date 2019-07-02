@@ -12,7 +12,6 @@ int str_size = strlen(str);
 int i; 
 int part_size;
 int word;
-
 for (i = 0; str[i] < 10; i++)
 {
 part_size = str_size / 2;
