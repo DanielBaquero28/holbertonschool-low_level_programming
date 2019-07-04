@@ -18,8 +18,7 @@ for (i = 0; dest[i] != 0; i++)
 j = 0;
 while (src[j] != '\0')
 {
-n = 0;
-if (src[j] <= n)
+if (j < n)
 dest[i] = src[j];
 j++;
 i++;
