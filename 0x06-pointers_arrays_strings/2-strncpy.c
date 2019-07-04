@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * _strcpy - Copies a string pointed to src
+ * _strncpy - Copies a string until n bytes
  * @dest: Pointer
  * @src: Pointer
- *
+ * @n: Variable
  * Return: Nothing
 **/
 
@@ -15,9 +15,9 @@ int i;
 for (i = 0; src[i] != 0; i++)
 {
 if (n > i)
-  {
+{
 dest[i] = src[i];
-  }
+}
 }
 dest[i] = '\0';
 return (dest);
