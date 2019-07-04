@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strcat - Concatenates two strings with pointers.
+ * _strncat - Concatenates two strings with pointers.
  * @dest: Pointer
  * @src: Pointer
  * @n: Variable with number of bytes
