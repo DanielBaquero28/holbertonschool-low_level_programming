@@ -1,24 +1,23 @@
 #include "holberton.h"
-#include <string.h>
 
 /**
- * reverse_array - Compares two strings
- * @s1: Pointer that links with a string
- * @s2: Pointer that links with a string
- *
- * Return: Nothing
-**/
+ * reverse_array - reverss an array of integers
+ * @a: array;
+ * @n: number of elements in array
+ */
+
 void reverse_array(int *a, int n)
 {
 int i;
-int tem;
+int temp;
+
 i = 0;
 n = n - 1;
-while (i < n)
+while (i <= n)
 {
-tem = a[i];
+temp = a[i];
 a[i] = a[n];
-a[n] = tem;
+a[n] = temp;
 i++;
 n--;
 }
