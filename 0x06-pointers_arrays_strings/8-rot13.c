@@ -5,6 +5,7 @@
  * @s: String of characters that will be translated
  * Return: A string encoded in rot13
 **/
+
 char *rot13(char *s)
 {
 int i;
