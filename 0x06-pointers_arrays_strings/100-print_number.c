@@ -5,7 +5,6 @@
  * @a: Variable
  * Return: Nothing
  */
-
 void print_number(int n)
 {
 int  sign, exp;
