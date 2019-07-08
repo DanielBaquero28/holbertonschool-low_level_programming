@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- * _strpbrk - Gets the length of the the initial substring that is the same as the second substring.
+ * _strpbrk - Searches for a string.
  * @s: Pointer
  * @accept: Pointer that accepts specific cg¡haracters
+ * Return: A pointer to the byte in s that matches *accept
 **/
 
 char *_strpbrk(char *s, char *accept)
