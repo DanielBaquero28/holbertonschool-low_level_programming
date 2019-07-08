@@ -19,7 +19,7 @@ while (*word2 == *haystack && *word2 != '\0' && *haystack != '\0')
 haystack++;
 word2++;
 }
-if (*word2 == '\0')	
+if (*word2 == '\0')
 return (word1);
 haystack = word1 + 1;
 }
