@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * _strspn - Gets the length of the the initial substring that is the same as the second substring.
  * @s: Pointer
@@ -8,17 +7,23 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-  int i, len;
-  while (*s != '\0')
-    {
-      i = 0;
-      len = 0;
-      while (s[i] == *accept)
-	{
-      len++;
-      s++;
-      return (len);
-	}    
-    }
+unsigned int len;
+int i, j, a;
 
+i = 0;
+while (s[i] != '\0')
+{
+a = 0;
+for (j = 0; accept[j] != '\0'; j++)
+{
+if (s[i] == accept[j])
+a = 1;
+}
+j = 0;
+if (a == 0)
+break;
+len++;
+i++;
+}
+return (i);
 }
