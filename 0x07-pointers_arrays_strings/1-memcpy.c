@@ -2,7 +2,7 @@
 
 /**
  * _memcpy - Function that copies memory area.
- * @s: Pointer
+ * @dest: Pointer
  * @src: Pointer
  * @n: Unsigned Integer
  * Return: A pointer to dest.
