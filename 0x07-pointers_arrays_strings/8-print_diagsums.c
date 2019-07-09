@@ -6,7 +6,6 @@
  * @size: Pointer with size.
  * @a: Pointer type int.
  **/
-
 void print_diagsums(int *a, int size)
 {
 int i, j, a;
