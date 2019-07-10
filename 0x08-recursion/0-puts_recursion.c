@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _puts_recursion - Gets the length of the the initial substring.
+ * _puts_recursion - Print a string
  * @s: Pointer
  * Return: Nothing
 **/
