@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _pow_recursion - Powers x to y.
  * @x: Number to be powered
@@ -17,7 +18,7 @@ return (1);
 }
 if (y == 1)
 {
-return x;
+return (x);
 }
 return (_pow_recursion(x, y - 1) * x);
 }
