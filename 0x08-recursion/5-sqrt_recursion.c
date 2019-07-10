@@ -4,6 +4,7 @@
  * @n: Number that is going to be checked.
  * Return: 0, 1, or -1.
 **/
+
 int finder(int n, int i);
 
 int _sqrt_recursion(int n)
