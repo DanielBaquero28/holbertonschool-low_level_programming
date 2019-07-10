@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - Checks if n is a perfect square root or not.
  * @n: Number that is going to be checked.
+ * @i: Square root
  * Return: 0, 1, or -1.
 **/
 
