@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * factorial - Finds factorial of a given number.
- * @s: Pointer
+ * @n: Pointer
  * Return: Factorial of a number, or -1 else 1.
 **/
 int factorial(int n)
