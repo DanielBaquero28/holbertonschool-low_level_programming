@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - print the mun of coins
- * @argc: number of arguments
- * @argv: array of pointers to the strings (arguments)
+ * main - Prints the program name.
+ * @argc: Number of commmand arguments
+ * @argv: Array of strings of the size of argc
  * Return: 0
 **/
 
