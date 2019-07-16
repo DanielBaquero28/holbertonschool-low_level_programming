@@ -28,5 +28,4 @@ ptr[j] = str[j];
 j++;
 }
 return (ptr);
-free(ptr);
 }
