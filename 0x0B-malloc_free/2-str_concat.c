@@ -3,7 +3,7 @@
 #include "holberton.h"
 
 /**
- * create_array - Check the code for Holberton School students.
+ * str_concat - Concatenates two strings.
  * @s1: String 1
  * @s2: String 2
  * Return: Concatenated string.
@@ -19,12 +19,15 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 for (i = 0; s1[i] != '\0'; i++)
+;
 for (a = 0; s2[a] != '\0'; a++)
+;
 a++;
 str = malloc((i + a) * sizeof(*str));
 if (str == NULL)
 return (NULL);
 for (b = 0; s1[b] != '\0'; b++)
+;
 str[b] = s1[b];
 a = 0;
 while (s2[a] != '\0')
