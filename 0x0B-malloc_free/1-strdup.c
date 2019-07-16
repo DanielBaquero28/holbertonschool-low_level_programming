@@ -16,9 +16,8 @@ int i, j;
 if (str == NULL)
 return (NULL);
 for (i = 0; str[i] != '\0'; i++)
-{
+i++;
 ptr = malloc(i * sizeof(char));
-}
 if (ptr == NULL)
 return (NULL);
 j = 0;
