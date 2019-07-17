@@ -3,7 +3,7 @@
 #include "holberton.h"
 
 /**
- * free_grip - Duplicates a string to a newly allocated space in memory.
+ * free_grid - Duplicates a string to a newly allocated space in memory.
  * @grid : Grid
  * @height : Height
  * Return: NULL or pointer.
