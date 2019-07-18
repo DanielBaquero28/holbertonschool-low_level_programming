@@ -6,7 +6,7 @@
  * _realloc - Reallocates a block of memory from the old_size to new_size
  * @ptr: Pointer to previous block of memory
  * @old_size: Old block of memory
- * @new_size: New block of memory 
+ * @new_size: New block of memory
  * Return: NULL or pointer to new block of memory
 **/
 
@@ -29,7 +29,7 @@ return (new_ptr);
 }
 if (new_size == old_size)
 return (ptr);
-if(new_size == 0 && ptr != NULL)
+if (new_size == 0 && ptr != NULL)
 {
 free(ptr);
 return (NULL);
@@ -43,11 +43,11 @@ return (NULL);
 if (new_size > old_size)
 _memcpy(new_ptr, ptr, old_size);
 free(ptr);
-return(new_ptr);
+return (new_ptr);
 }
 
 /**
- * _memcpy - Copies number of bytes from one string1 to string2 
+ * _memcpy - Copies number of bytes from one string1 to string2
  * @to: Destination
  * @from: Source
  * @new_size: New number of bytes
