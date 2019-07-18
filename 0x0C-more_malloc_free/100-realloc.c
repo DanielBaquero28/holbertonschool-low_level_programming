@@ -12,15 +12,21 @@
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-void *new_ptr
+void *_memcpy(char *to, char *from, unsigned int new_size);
+
+void *new_ptr;
+
 if (ptr == NULL)
 {
 new_ptr = malloc(new_size);
+if (new_ptr == NULL)
+{
 free(ptr);
 return (NULL);
 }
 free(ptr);
 return (new_ptr);
+}
 if (new_size == old_size)
 return (ptr);
 if(new_size == 0 && ptr != NULL)
@@ -29,7 +35,7 @@ free(ptr);
 return (NULL);
 }
 new_ptr = malloc(new_size);
-if (ptr == NULL)
+if (new_ptr == NULL)
 {
 free(ptr);
 return (NULL);
@@ -48,10 +54,10 @@ return(new_ptr);
  * Return: Pointer *to
 **/
 
-void *_memcpy(void *to, char *from, unsigned int new_size)
+void *_memcpy(char *to, char *from, unsigned int new_size)
 {
 unsigned int i;
-for (i = 0; from[i] < new_size; i++)
+for (i = 0; i < new_size; i++)
 {
 to[i] = from[i];
 }
