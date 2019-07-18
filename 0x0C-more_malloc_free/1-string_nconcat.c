@@ -6,7 +6,7 @@
  * malloc_checked - Allocates memory using malloc
  * @s1: String that will be concatenated to string 2.
  * @s2: String in which will be concatenated from string 1.
- * @n: Positive Integer
+ * @n: Positive Integer of bytes
  * Return: Pointer to allocated memory.
 **/
 
