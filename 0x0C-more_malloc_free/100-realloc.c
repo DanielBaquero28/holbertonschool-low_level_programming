@@ -13,29 +13,47 @@
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 void *new_ptr
-  if (ptr == NULL)
-    {
-    new_ptr = malloc(new_size);
- free(ptr);
- return (NULL);
-    }
- free(ptr);
- return (new_ptr);
- if (new_size == old_size)
-   return (ptr);
- if(new_size == 0 && ptr != NULL)
-   {
-   free(ptr);
- return (NULL);
-   }
- new_ptr = malloc(new_size);
- if (ptr == NULL)
-   {
-     free(ptr);
-   return (NULL);
-   }
- if (new_size > old_size)
-   _memcpy(new_ptr, ptr, old_size);
- free(ptr);
- return(new_ptr);
-   }
+if (ptr == NULL)
+{
+new_ptr = malloc(new_size);
+free(ptr);
+return (NULL);
+}
+free(ptr);
+return (new_ptr);
+if (new_size == old_size)
+return (ptr);
+if(new_size == 0 && ptr != NULL)
+{
+free(ptr);
+return (NULL);
+}
+new_ptr = malloc(new_size);
+if (ptr == NULL)
+{
+free(ptr);
+return (NULL);
+}
+if (new_size > old_size)
+_memcpy(new_ptr, ptr, old_size);
+free(ptr);
+return(new_ptr);
+}
+
+/**
+ * _memcpy - Copies number of bytes from one string1 to string2 
+ * @to: Destination
+ * @from: Source
+ * @new_size: New number of bytes
+ * Return: Pointer *to
+**/
+
+void *_memcpy(void *to, char *from, unsigned int new_size)
+{
+unsigned int i;
+for (i = 0; from[i] < new_size; i++)
+{
+to[i] = from[i];
+}
+return (to);
+}
