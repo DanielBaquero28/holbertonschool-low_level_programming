@@ -1,6 +1,6 @@
 #ifndef DOG
 #define DOG
-
+#endif
 /**
  * struct dog - Creating a structure for dog
  * @name: Dog's name
