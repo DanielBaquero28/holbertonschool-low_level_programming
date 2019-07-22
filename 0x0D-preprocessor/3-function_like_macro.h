@@ -1,5 +1,4 @@
-#ifndef ABS
-#define ABS
+#ifndef ABSVAL
+#define ABSVAL
 #define ABS(x) (((x) < 0) ? -(x) : (x))
-#include guard
 #endif
