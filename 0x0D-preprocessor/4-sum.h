@@ -1,5 +1,4 @@
-#ifndef SUM
-#define SUM
+#ifndef SUMNUM
+#define SUMNUM
 #define SUM(x, y) ((x) + (y))
-#include guard
 #endif
