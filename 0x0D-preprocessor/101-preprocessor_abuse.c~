@@ -1,0 +1,7 @@
+#define PRINT printf("Hello World")
+#include <stdio.h>
+int main(void)
+{
+if (PRINT)
+return (0);
+}
