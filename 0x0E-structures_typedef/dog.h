@@ -1,28 +1,26 @@
 #ifndef DOG
 #define DOG
 /**
- * struct dog - Creating a structure for dog
- * @name: Dog's name
- * @age: Dog's age
- * @owner: Dog's owner
- *
- * Description: In this structure we include the name, age, and owner of dog.
-**/
-
+ * struct dog- struture of a dog
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: who is owner
+ */
 struct dog
 {
-char *name;
-float age;
-char *owner;
+  char *name;
+  float age;
+  char *owner;
+
 };
+
+/**
+ * dog_t - typedef for dog
+ */
+
+typedef struct dog dog_t;
+void free_dog(dog_t *d);
+dog_t *new_dog(char *name, float age, char *owner);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
-dog_t *new_dog(char *name, float age, char *owner);
-void free_dog(dog_t *d);
-/**
- * dog_t - New type for struct dog
-**/
-typedef struct dog dog_t;
 #endif
-
-
