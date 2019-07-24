@@ -1,5 +1,6 @@
 #include "3-calc.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Prints the calculation.
  * @argc: Number of arguments.
@@ -34,7 +35,7 @@ printf("Error\n");
 exit(99);
 }
 ptr = get_op_func(argv[2]);
-result = (*ptr)(a, b);
+result = (*ptr)(arg1, arg2);
 printf("%d\n", result);
 return (0);
 }
