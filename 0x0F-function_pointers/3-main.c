@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the calculation.
- * @argc: Number of arguments. 
+ * @argc: Number of arguments.
  * @argv: Array of arguments.
  * Return: 98, 99, 100, or correct calculation.
  **/
