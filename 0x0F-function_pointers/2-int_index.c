@@ -17,7 +17,7 @@ if (array && cmp)
 if (size <= 0)
 return (-1);
 for (i = 0; i < (int)size; i++)
-if (cmp <= 9 && cmp >= 0)
+if (cmp(array[i]))
 return (i);
 }
 return (-1);
