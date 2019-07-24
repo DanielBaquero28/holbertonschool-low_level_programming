@@ -3,7 +3,7 @@
 
 /**
  * int_index - Searches for an integer.
- * @array: Iterated array 
+ * @array: Iterated array.
  * @size: Size of the array.
  * @cmp: Compares if it is an integer or not.
  * Return: Nothing
