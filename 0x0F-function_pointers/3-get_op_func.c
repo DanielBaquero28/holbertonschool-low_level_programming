@@ -18,7 +18,6 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
-
 int i;
 
 i = 0;
