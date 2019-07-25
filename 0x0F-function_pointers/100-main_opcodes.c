@@ -2,18 +2,19 @@
 #include <stdlib.h>
 
 /**
- * show_mem_rep - shows rep
- * @start: start of rep
- * @n: number of bytes
+ * show_rep - Show rep
+ * @s: Start of rep
+ * @n: Number of bytes
 **/
 
-void show_mem_rep(char *start, int n)
+void show_rep(char *s, int n)
 {
+
 int i;
 
 for (i = 0; i < n; i++)
 {
-printf("%02hhx", start[i]);
+printf("%02hhx", s[i]);
 if (i < n - 1)
 printf(" ");
 else
@@ -22,27 +23,28 @@ printf("\n");
 }
 
 /**
- * main - prints out number of bytes of main function
- * @argc: int of arguements
- * @argv: list of arguements
+ * main - Prints the opcodes of the main function
+ * @argc: Number of arguments.
+ * @argv: Argument vector.
  * Return: 0
 **/
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-int num_bytes;
+
+int num;
 
 if (argc != 2)
 {
 printf("Error\n");
 exit(1);
 }
-num_bytes = atoi(argv[1]);
-if (num_bytes < 0)
+num = atoi(argv[1]);
+if (num < 0)
 {
 printf("Error\n");
 exit(2);
 }
-show_mem_rep((char *)&main, num_bytes);
+show_rep((char *)&main, num);
 return (0);
 }
