@@ -16,18 +16,15 @@ unsigned int i;
 va_list valist;
 char *ptr;
 va_start(valist, n);
-if (separator == NULL)
-return;
 for (i = 0; i < n; i++)
 {
 ptr = va_arg(valist, char *);
+if (ptr == NULL)
+printf("(nil)");
+else
+{
 printf("%s", ptr);
 if (i < (n - 1) && separator != NULL)
-{
-if (ptr == NULL)
-{
-printf("(nil)");
-}
 printf("%s", separator);
 }
 }
