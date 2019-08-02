@@ -18,6 +18,7 @@ if (h->str == NULL)
 printf("[0] (nil)\n");
 h = h->next;
 elements++;
+
 }
 else
 {
