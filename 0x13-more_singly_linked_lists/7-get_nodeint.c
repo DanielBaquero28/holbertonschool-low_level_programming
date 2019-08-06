@@ -21,8 +21,5 @@ if (i != index)
 {
 return (NULL);
 }
-else
-{
 return (current);
-}
 }
