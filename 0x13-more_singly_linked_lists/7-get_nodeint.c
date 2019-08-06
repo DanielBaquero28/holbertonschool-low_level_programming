@@ -16,9 +16,7 @@ current = head;
 for (i = 0; i < index; i++)
 {
 current = current->next;
-}
-if (i != index)
-{
+if (current == NULL)
 return (NULL);
 }
 return (current);
