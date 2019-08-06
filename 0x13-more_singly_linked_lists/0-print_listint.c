@@ -8,14 +8,8 @@
 
 size_t print_listint(const listint_t *h)
 {
-const listint_t *current;
-size_t count;
-
-count = 0;
-
-if (h == NULL)
-return (0);
-current = h;
+const listint_t *current = h;
+size_t count = 0;
 while (current != NULL)
 {
 printf("%d\n", current->n);
