@@ -13,6 +13,6 @@ unsigned long int mask = 1;
 
 if (index > 63)
 return (-1);
-*n = mask << index | *n;
+*n |= mask << index;
 return (1);
 }
