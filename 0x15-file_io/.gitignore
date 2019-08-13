@@ -2,3 +2,5 @@
 *-main.c
 #Ignoring Iterated Files
 *~
+#Ignoring Putchar File
+_putchar.c
