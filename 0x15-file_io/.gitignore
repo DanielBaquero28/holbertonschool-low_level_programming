@@ -4,3 +4,5 @@
 *~
 #Ignoring Putchar File
 _putchar.c
+#Ignore .exe Files
+?
