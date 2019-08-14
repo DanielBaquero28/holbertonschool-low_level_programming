@@ -21,7 +21,7 @@ writes = write(fd, text_content, _strlen(text_content));
 if (writes == -1)
 return (-1);
 close(fd);
-return(1);
+return (1);
 }
 
 /**
@@ -32,7 +32,7 @@ return(1);
 
 int _strlen(char *str)
 {
-int i; 
+int i;
 for (i = 0; str[i] != 0; i++)
 {
 
