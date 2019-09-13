@@ -1,2 +1,4 @@
 #Ignoring main.c
 *-main.c
+#Ignoring executables
+*
