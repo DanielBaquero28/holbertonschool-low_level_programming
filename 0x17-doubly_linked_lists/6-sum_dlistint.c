@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <errno.h>
 
 /**
  * sum_dlistint - Sums the whole list.
@@ -12,6 +11,8 @@ int sum_dlistint(dlistint_t *head)
 
 	unsigned int i;
 	int sum;
+
+	sum = 0;
 
 	for (i = 0; head; i++)
 	{
