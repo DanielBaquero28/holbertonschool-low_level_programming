@@ -6,10 +6,11 @@
  * @head: Head of the list. (Double Pointer)
  * @index: Index of the given position where the node is removed.
  * Return: 1 if succeded or -1 if failed.
-**/
+ **/
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
-{	unsigned int i;
+{
+	unsigned int i;
 	dlistint_t *help, *help2, *temp;
 
 	if (*head == NULL)
