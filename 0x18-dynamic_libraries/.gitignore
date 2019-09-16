@@ -1,0 +1,4 @@
+#Ignoring iterated files
+*~
+#Ignoring main's
+*-main.c
