@@ -2,5 +2,9 @@
 *~
 #Ignoring main's
 *-main.c
-#Ignoring c files
+#Ignoring .c files
 *.c
+#Ignoring .o files
+*.o
+#Ignoring .py files
+*.py
