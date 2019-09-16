@@ -8,3 +8,5 @@
 *.o
 #Ignoring .py files
 *.py
+#Ignoring exe
+len
