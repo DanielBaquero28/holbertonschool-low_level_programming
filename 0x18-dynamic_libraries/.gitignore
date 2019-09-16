@@ -2,3 +2,5 @@
 *~
 #Ignoring main's
 *-main.c
+#Ignoring c files
+*.c
