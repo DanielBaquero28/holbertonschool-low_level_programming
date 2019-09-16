@@ -10,3 +10,5 @@
 *.py
 #Ignoring exe
 len
+#Ignoring generic .h file
+function_pointers.h
