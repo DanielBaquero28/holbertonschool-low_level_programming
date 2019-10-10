@@ -10,18 +10,5 @@
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
 
-	int c;
-	unsigned long int hash;
-	unsigned long int index;
-
-	(void)size;
-
-	hash = 5381;
-	while((c = *key++))
-	{
-		hash = ((hash << 5) + hash) + c;
-		index = (index + key[c]) % size;
-		c++;
-	}
-	return (hash);
+	return (hash_djb2(key) % size);
 }
