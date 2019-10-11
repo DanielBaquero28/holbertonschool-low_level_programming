@@ -17,7 +17,7 @@ shash_table_t *shash_table_create(unsigned long int size)
 	if (!new_table)
 		return (NULL);
 	new_table->size = size;
-	new_table->array = malloc(sizeof(shash_node_t) * size); /* Cambie shash_table_t **/
+	new_table->array = malloc(sizeof(shash_node_t *) * size);
 	if (!new_table->array)
 		return (NULL);
 	for (i = 0; i < size; i++)
