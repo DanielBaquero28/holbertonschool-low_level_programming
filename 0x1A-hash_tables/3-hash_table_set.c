@@ -28,7 +28,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new_node->value = strdup(value);
 
 	if (ht->array[hash_index] != NULL)
-		new_node->next = ht->array[0];
+		new_node->next = ht->array[hash_index];
 
 	ht->array[hash_index] = new_node;
 	return (1);
