@@ -9,7 +9,7 @@
 void hash_table_delete(hash_table_t *ht)
 {
 
-	unsigned int i;
+	unsigned long xint i;
 	hash_node_t *help;
 	hash_node_t *help2;
 
