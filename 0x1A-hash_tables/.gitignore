@@ -2,3 +2,5 @@
 *-main.c
 #Ignoring exe's
 ?
+#Ignoring sht
+sht
