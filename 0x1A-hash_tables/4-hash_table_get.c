@@ -13,7 +13,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	hash_node_t *help;
 	unsigned long int index;
 
-	if (!ht || !key)
+	if (!ht)
 		return (NULL);
 
 	index = key_index((unsigned char *)key, ht->size);
@@ -28,5 +28,5 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		help = help->next;
 	}
 
-	return (EXIT_SUCCESS);
+	return (NULL);
 }
