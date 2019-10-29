@@ -3,3 +3,5 @@
 #Ignoring not mandatory files
 print_array.c
 print_list.c
+#Ignoring .exe
+bubble
