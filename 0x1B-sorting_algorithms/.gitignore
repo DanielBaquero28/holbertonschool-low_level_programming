@@ -5,3 +5,6 @@ print_array.c
 print_list.c
 #Ignoring .exe
 bubble
+insertion
+select
+quick
