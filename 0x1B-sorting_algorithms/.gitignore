@@ -1,2 +1,5 @@
 #Ignoring main.c files
 *-main.c
+#Ignoring not mandatory files
+print_array.c
+print_list.c
