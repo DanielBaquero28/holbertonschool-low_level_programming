@@ -1,0 +1,5 @@
+# Rules: All
+FILES := main.c holberton.c
+
+all: $(FILES)
+	gcc $(FILES) -o holberton
