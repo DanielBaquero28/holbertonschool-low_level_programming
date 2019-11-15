@@ -29,7 +29,6 @@ The all rule should recompile only the updated source files
 The clean, oclean, fclean, re rules should never fail
 You are not allowed to have a list of all the .o files</li>
 <li>Task 4: Requirements:
-
 name of the executable: holberton
 rules: all, clean, fclean, oclean, re
 all: builds your executable
