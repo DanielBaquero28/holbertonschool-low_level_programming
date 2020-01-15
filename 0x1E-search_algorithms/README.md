@@ -8,8 +8,8 @@
 <li>Task 4: What is the time complexity (worst case) of a binary search in an array of size n?</li>
 <li>Task 5: What is the space complexity (worst case) of a binary search in an array of size n?</li>
 <li>Task 6: What is the space complexity of this function / algorithm?
-<code>
 <br>
+<code>
 int **allocate_map(int n, int m)
 {
      int **map;
@@ -22,8 +22,8 @@ int **allocate_map(int n, int m)
      return (map);
 }
 </code>
-</li>
 <br>
+</li>
 <li>Advanced Task 1: Write a function that searches for a value in a sorted array of integers using the Jump search algorithm</li>
 </body>
 <br>
