@@ -1,4 +1,6 @@
 #Ignoring executables
-0_linear
+0-linear
 1-binary
 100-jump
+#Ignoring main.c
+*-main.c
